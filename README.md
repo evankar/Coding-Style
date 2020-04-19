@@ -15,7 +15,7 @@
    - A space between anything and an open brace
    - No space between a function name and an opening paren 
       (`puts(x)`, never `puts (x)`)
-   - Always use brackets, even for single-statement blocks
+   - Do not unnecessarily use braces where a single statement will do
    - Split long conditional expressions into small `static inline`
    - Place the * before the variable name, never after the type
    - To comment out some code, use #if 0 (...) #endif
